@@ -4,7 +4,7 @@
 
 VideoExpert is a Video LLM designed for Temporal-Sensitive Video Understanding, including video temporal grounding, video highlight detection, dense video captioning and video grounding question answering.
 
-![framework](Picture/Overview_4.pdf)
+![framework](Picture/overview.png)
 
 ---
 
@@ -25,6 +25,7 @@ We recommend setting up a conda environment for the project:
 conda create --name=videoexpert python=3.10
 conda activate videoexpert
 
+git clone https://github.com/coffeecolamind/VideoExpert.git
 cd videoexpert
 pip install -r requirements.txt
 ```
@@ -41,31 +42,17 @@ For training instructions, check out [train.md](docs/train.md).
 
 ## Qualitative Analysis :mag:
 
-A Comprehensive Evaluation of VTimeLLM's Performance across Multiple Tasks.
+A Comprehensive Evaluation of VideoExpert's Performance across Multiple Tasks.
 
 
-### Video Understanding and Conversational Tasks :speech_balloon:
-![0](images/ex.png) 
-
----
-
-### Creative Tasks :paintbrush:
-![1](images/ex1.png) 
-
----
-### Fine-grained Understanding Tasks :globe_with_meridians:
-![2](images/ex2.png) 
-
----
-### Video Reasoning Tasks :question:
-![3](images/ex3.png) 
+![0](Picture/Qualitative_results.png) 
 
 ---
 
 
 ## Acknowledgements :pray:
 
-We are grateful for the following awesome projects our VTimeLLM arising from:
+We are grateful for the following awesome projects our VideoExpert arising from:
 
 * [VTimeLLM](https://github.com/huangb23/VTimeLLM): Empower LLM to Grasp Video Moments
 * [LLaVA](https://github.com/haotian-liu/LLaVA): Large Language and Vision Assistant
@@ -74,17 +61,6 @@ We are grateful for the following awesome projects our VTimeLLM arising from:
 * [LLaMA](https://github.com/facebookresearch/llama): Open and Efficient Foundation Language Models
 * [Vid2seq](https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq): Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning
 * [InternVid](https://github.com/OpenGVLab/InternVideo/tree/main/Data/InternVid): A Large-scale Video-Text dataset
-
-
-If you're using TimeAgent in your research or applications, please cite using this BibTeX:
-```bibtex
-@article{zhao2024TimeAgent,
-  title={TimeAgent: Empower LLM to Grasp Video Moments},
-  author={Zhao, Henghao and },
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2023}
-}
-```
 
 ## License :scroll:
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a> 

@@ -14,7 +14,7 @@ deepspeed --master_port $MASTER_PORT vtimellm/train/train_mem.py \
     --model_name_or_path checkpoints/vicuna-7b-v1.5 \
     --version v1 \
     --data_path Training_Data/Pretrain \
-    --feat_folder Datasets/PreTrain_Data/Stage_2 \
+    --feat_folder Datasets/PreTrain_Data \
     --pretrain_mm_mlp_adapter checkpoints/CLSPatch_checkpoints/CLSPatch_stage1/mm_projector.bin \
     --output_dir ./Results/Pretain \
     --bf16 True \
