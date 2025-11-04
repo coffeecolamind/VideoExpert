@@ -35,6 +35,10 @@ pip install ninja
 pip install flash-attn --no-build-isolation
 ```
 
+## Prepare Data :floppy_disk:
+
+For data preparation, please refer to [data.md](docs/data.md).
+
 
 ## Training :train:
 

@@ -1,4 +1,4 @@
-We provide the pre-training dataset and the corresponding annotations, which can be downloaded from [here](https://cloud.tsinghua.edu.cn/d/6db5d02883124826aa6f/?p=%2Fdata&mode=list). 
+We provide the pre-training dataset and the corresponding annotations, which can be downloaded from [here](https://pan.baidu.com/s/1fWexF8C-lq1UblKUBvKm2A) (Code:ga9n). 
 
 The pre-training dataset consists of a subset from the following datasets:
 
